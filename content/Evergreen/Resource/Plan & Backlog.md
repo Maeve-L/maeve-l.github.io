@@ -1,0 +1,3 @@
+- [ ] [Introduction to Linear Regression Analysis](https://book.douban.com/subject/7962727/)
+- [ ] [Empirical asset pricing](https://www.koijen.net/phd-notes-empirical-asset-pricing.html)
+- [ ] [Berkeley Decentralized Finance](https://berkeley-defi.github.io/f21)
