@@ -1,10 +1,10 @@
 ## Stats
 
-[Probability & Random Process](Published/Notes/Probability%20&%20Random%20Process.md)
+[Probability_and_Random_Process](Published/Notes/Probability_and_Random_Process.md)
 
-[Statistical Inference](Published/Notes/Statistical%20Inference.md)
+[Statistical_Inference](Published/Notes/Statistical_Inference.md)
 
-[Regression Analysis](Published/Notes/Regression%20Analysis.md)
+[Regression_Analysis](Published/Notes/Regression_Analysis.md)
 
 [计量经济学](Published/Notes/计量经济学.md)
 
@@ -36,5 +36,5 @@
 
 [数据结构与算法](Published/Notes/数据结构与算法.md)
 
-[Data Preprocessing and EDA](Published/Notes/Data%20Preprocessing%20and%20EDA.md)
+[Data_Preprocessing_and_EDA](Published/Notes/Data_Preprocessing_and_EDA.md)
 

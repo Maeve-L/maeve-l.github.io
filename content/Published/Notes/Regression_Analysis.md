@@ -82,7 +82,7 @@ $$
 
 The distribution of $n\hat\sigma^2/\sigma^2$ is the $\chi^2$ distribution with $n-2$ degrees of freedom.
 
-### [[Statistical Inference]] in Simple Linear Regression
+### [[Published/Notes/Statistical_Inference]] in Simple Linear Regression
 
 #### Unbiased Estimator of $\sigma^2$
 
