@@ -4,7 +4,6 @@ googleAnalytics = "G-XYFD95KB4J"
 pygmentsUseClasses = true
 relativeURLs = true
 disablePathToLower = true
-math = true
 ignoreFiles = [
     "/content/templates/*",
     "/content/private/*",
