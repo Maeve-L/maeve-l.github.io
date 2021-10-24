@@ -40,5 +40,5 @@ Rage, rage against the dying of the light.
 
 
 
-[MOC](blog/MOC.md)
+[MOC](Blog/MOC.md)
 
