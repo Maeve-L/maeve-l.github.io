@@ -1,16 +1,16 @@
 {
   "main": {
-    "id": "e0351640dca65ed2",
+    "id": "e9a97555a658e269",
     "type": "split",
     "children": [
       {
-        "id": "017844fe150f5f8e",
+        "id": "5d312f2ce7079963",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "WeeklyNotes.md",
-            "mode": "preview"
+            "file": "MOC.md",
+            "mode": "source"
           }
         }
       }
@@ -63,20 +63,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "abbf3600824ffb2e",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {}
-            }
-          },
-          {
             "id": "03db0a4b13d379ab",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WeeklyNotes.md",
+                "file": "MOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,8 +85,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WeeklyNotes.md"
+                "file": "MOC.md"
               }
+            }
+          },
+          {
+            "id": "4b9b0d76409fe814",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
             }
           }
         ]
@@ -104,17 +104,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "017844fe150f5f8e",
+  "active": "5d312f2ce7079963",
   "lastOpenFiles": [
-    "WeeklyNotes.md",
-    "WeeklyNotes 2.md",
-    "Day Planners/WeeklyNotes 20211018-20211024.md",
-    "Plan.md",
-    "Pasted image 20211003234603.png",
-    "Day Planners/Untitled.md",
-    "Day Planners/Day Planner-20211012 1.md",
-    "Day Planners/Day Planner-20211012.md",
-    "Weekly Commentary 20211008.md",
-    "New Destination.md"
+    "MOC.md",
+    "Notes/置身事内——中国政府与经济发展.md",
+    "Notes/ABS.md",
+    "Notes/资产组合理论（TODO）.md",
+    "Notes/数据结构与算法.md",
+    "Notes/利率及利率衍生品.md",
+    "Notes/金融市场与金融机构.md",
+    "Notes/金融市场和金融工具基本概念.md",
+    "Notes/金融时间序列分析.md",
+    "Notes/计量经济学.md"
   ]
 }
