@@ -4,7 +4,7 @@
 
 [Statistical_Inference](Published/Notes/Statistical_Inference.md)
 
-[Regression_Analysis](Published/Notes/Regression_Analysis.md)
+[Regression Analysis](<Published/Notes/Regression Analysis.md>)
 
 [计量经济学](Published/Notes/计量经济学.md)
 
