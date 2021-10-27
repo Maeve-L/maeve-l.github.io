@@ -1,7 +1,5 @@
-{{$content := replaceRE `a href="\.\.\/(.+%20.+)+"` `$1` .Content}}
-
-{{$content = replace $content "%20" "-"}}
 {{$trimmed := strings.TrimSuffix ".md" (.Destination | safeURL)}}
+{{$trimmed = replace $trimmed "%20" "-"}}
 {{$external := strings.HasPrefix $trimmed "http" }}
 {{ if $external }}
 <a href="{{ $trimmed }}" rel="noopener">{{ .Text | safeHTML }}</a>
