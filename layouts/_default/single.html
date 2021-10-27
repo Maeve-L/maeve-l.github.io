@@ -1,7 +1,8 @@
-<!DOCTYPE html>
+
 {{$content := replaceRE `a href="\.\.\/(.+%20.+)+"` `$1` .Content}}
 
 {{$content = replace $content "%20" "-"}}
+<!DOCTYPE html>
 <html lang="en">
 {{ partial "head.html" . }}
 
