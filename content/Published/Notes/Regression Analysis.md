@@ -54,11 +54,12 @@ $$
 $$
 
 $$
-\\operatorname{Var}\\left(\\hat{\\beta}_{1}\\right)=\\frac{\\sum_{i=1}^{n}\\left(x_{i}-\\bar{x}\\right)^{2} \\operatorname{Var}\\left(Y_{i}\\right)}{s_{x}^{4}}=\\frac{\\sigma^{2}}{s_{x}^{2}}
+\operatorname{Var}\left(\hat{\beta}_{1}\right)=\frac{\sum_{i=1}^{n}\left(x_{i}-\bar{x}\right)^{2} \operatorname{Var}\left(Y_{i}\right)}{s_{x}^{4}}=\frac{\sigma^{2}}{s_{x}^{2}}
 $$
 
 $$
-\\begin{aligned}    \\operatorname{Var}(\\hat{\\beta_{0}})&=\\operatorname{Var}(\\bar{Y}-\\hat{\\beta_{1}} \\bar{x})\\\\&=\\operatorname{Var}(\\bar{Y})+\\bar{x}^{2}-2 \\bar{x} \\operatorname{Cov}(\\bar{Y}, \\hat{\\beta_{1}})\\\\&=\\frac{\\sigma^{2}}{n}+\\frac{\\sigma^{2}}{s_{x}^{2}} \\bar{{x}}^{2}-0 \\\\&=\\left(\\frac{1}{n}+\\frac{\\bar{x}^{2}}{s_{x}^{2}}\\right) \\sigma^{2}    \\end{aligned}
+  
+\begin{aligned} \operatorname{Var}(\hat{\beta_{0}})&=\operatorname{Var}(\bar{Y}-\hat{\beta_{1}} \bar{x})\\&=\operatorname{Var}(\bar{Y})+\bar{x}^{2}-2 \bar{x} \operatorname{Cov}(\bar{Y}, \hat{\beta_{1}})\\&=\frac{\sigma^{2}}{n}+\frac{\sigma^{2}}{s_{x}^{2}} \bar{{x}}^{2}-0 \\&=\left(\frac{1}{n}+\frac{\bar{x}^{2}}{s_{x}^{2}}\right) \sigma^{2} \end{aligned}
 $$
 
 
@@ -82,7 +83,7 @@ $$
 
 The distribution of $n\hat\sigma^2/\sigma^2$ is the $\chi^2$ distribution with $n-2$ degrees of freedom.
 
-### [[Published/Notes/Statistical_Inference]] in Simple Linear Regression
+### Statistical Inference in Simple Linear Regression
 
 #### Unbiased Estimator of $\sigma^2$
 
@@ -156,11 +157,11 @@ $$
 ### Prediction
 
 $$
-\hat\mathbf{Y}=\mathbf{x}^{\prime}\left(\mathbf{X}^{\prime}\mathbf{X}\right)^{-1} \mathbf{X}^{\prime}\mathbf{Y}
+\hat{\mathbf{Y}}=\mathbf{x}^{\prime}\left(\mathbf{X}^{\prime} \mathbf{X}\right)^{-1} \mathbf{X}^{\prime} \mathbf{Y}
 $$
 
 $$
-Var(\hat\mathbf{Y})=\mathbf{x}^{\prime}\left(\mathbf{X}^{\prime}\mathbf{X}\right)^{-1}\mathbf{x}\sigma^2
+Var(\hat{\mathbf{Y}})=\mathbf{x}^{\prime}\left(\mathbf{X}^{\prime}\mathbf{X}\right)^{-1}\mathbf{x}\sigma^2
 $$
 
 $$

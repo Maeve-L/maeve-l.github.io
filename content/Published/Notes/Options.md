@@ -1,8 +1,7 @@
 ## Properties of Options
 
 ### Factors affecting option prices
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ca7dc080-6aa5-4022-87fb-0a0da60c8787/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ca7dc080-6aa5-4022-87fb-0a0da60c8787/Untitled.png)
+![](Pasted%20image%2020220220232341.png)
 
 ### Call-Put Parity
 
@@ -143,7 +142,7 @@ A continuous stochastic process $W(t), t \geq 0,$ is a Brownian motion if
 
 ### Ito Formula
 
-$$⁍$$
+$$d f=\left(\frac{\partial f}{\partial t}+\beta(t, X) \frac{\partial f}{\partial x}+\frac{1}{2} \gamma^{2}(t, X) \frac{\partial^{2} f}{\partial x^{2}}\right) d t+\gamma(t, X) \frac{\partial f}{\partial x} d W(t)$$
 
 from Taylor's formula as quadratic variation = $dWdW=dt$
 
