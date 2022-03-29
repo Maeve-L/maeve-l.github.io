@@ -1,3 +1,10 @@
+---
+Area: Finance
+Source: Book
+Status: Done
+Type: Notes
+---
+
 ## 期货市场的运作机制
 
 ### 背景知识

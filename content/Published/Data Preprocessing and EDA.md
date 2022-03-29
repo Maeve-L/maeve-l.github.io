@@ -1,3 +1,10 @@
+---
+Area: Coding
+Source: Website
+Status: Ongoing
+Type: Notes
+---
+
 ## Rows and Columns
 
 Slice with labels for row and single label for column. As mentioned above, note that both the start and stop of the slice are included.
@@ -125,19 +132,19 @@ df.drop_duplicates(['k'])
 
 Use summary statistics to find out the moments.
 
--   Locations
+-   [ ] Locations
     
     Mean, median, quartiles, mode...
     
--   Spreads
+-   [ ] Spreads
     
     range, variance, standard deviation, IQR
     
--   Skewness
+-   [ ] Skewness
     
     asymmetries
     
--   Kurtosis
+-   [ ] Kurtosis
     
 
 ## Distributions
@@ -170,7 +177,7 @@ plt.legend((p1[0], p2[0],p3[0]), ('Check-Out', 'Canceled','No-Show'))
 plt.show()
 ```
 
-
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2dfbdcaa-5d48-488b-947b-35035413d0ea/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2dfbdcaa-5d48-488b-947b-35035413d0ea/Untitled.png)
 
 ### Histogram
 
@@ -216,6 +223,7 @@ ax5=sns.pointplot(y="market_segment", x="is_canceled",data=resort_hotel,join=Fal
 ax5.set(xlim=(0,1))
 ```
 
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/92410985-9ea9-43f6-8261-104d82c6df2d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/92410985-9ea9-43f6-8261-104d82c6df2d/Untitled.png)
 
 ### Pivot table plot
 
@@ -240,7 +248,7 @@ plt.clim(0,100)
 plt.colorbar()
 ```
 
-
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a870cb5b-ac78-496e-ab5d-1eccc137395c/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a870cb5b-ac78-496e-ab5d-1eccc137395c/Untitled.png)
 
 ```python
 # Categories of geography
@@ -263,7 +271,7 @@ ax.legend(handles, labels = descriptor, loc='center right', bbox_to_anchor=(1.5,
 plt.show()
 ```
 
-
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/be4182d1-b8ea-4432-b8ca-4ce67a4c6311/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/be4182d1-b8ea-4432-b8ca-4ce67a4c6311/Untitled.png)
 
 ### Contour plot
 
@@ -329,74 +337,11 @@ pd.merge(left, right, how= 'inner', on=None, left_on=None, right_on=None)
 # how: inner, outer, left, right
 ```
 
-
-#### Merge_asof
-
-[The hidden rules of pandas.merge_asof() | by Angwalt | Medium](https://angwalt12.medium.com/the-hidden-rules-of-pandas-merge-asof-e67293a5318e)
-
-
-```left = pd.DataFrame({"a": [1, 5, 10], "left_val": ["a", "b", "c"]})
->>> left
- a left_val
-0   1        a
-1   5        b
-2  10        c
-
->>> right = pd.DataFrame({"a": [1, 2, 3, 6, 7], "right_val": [1, 2, 3, 6, 7]})
->>> right
- a  right_val
-0  1          1
-1  2          2
-2  3          3
-3  6          6
-4  7          7
-
->>> pd.merge_asof(left, right, on="a")
- a left_val  right_val
-0   1        a          1
-1   5        b          3
-2  10        c          7
-
->>> pd.merge_asof(left, right, on="a", allow_exact_matches=False)
- a left_val  right_val
-0   1        a        NaN
-1   5        b        3.0
-2  10        c        7.0
-
->>> pd.merge_asof(left, right, on="a", direction="forward")
- a left_val  right_val
-0   1        a        1.0
-1   5        b        6.0
-2  10        c        NaN
-
->>> pd.merge_asof(left, right, on="a", direction="nearest")
- a left_val  right_val
-0   1        a          1
-1   5        b          6
-2  10        c          7
-```
-
-#### Combine_first
-```
-df1 = pd.DataFrame({'A': [None, 0], 'B': [4, None]})
->>> df2 = pd.DataFrame({'B': [3, 3], 'C': [1, 1]}, index=[1, 2])
->>> df1.combine_first(df2)
- A    B    C
-0  NaN  4.0  NaN
-1  0.0  3.0  1.0
-2  NaN  3.0  1.0
-```
-
-
 ### Concat
 
 ```python
 pd.concat([s1,s2],axis=1)# if with same index
 ```
-
-
-
-
 
 ## Reshape
 
@@ -503,11 +448,11 @@ by_year.apply(regress,'AAPL',['SPX'])
 
 ### Polish the Questions
 
-Check if the questions to be answered are valid or well stated; If not, modify them or come up with new ones.
+Check if the questions to be answered are valid or well stated; If not, modify them or come up with new ones
 
 ### Validate Data I/O Methods
 
-Check and validate the methods to load and save the datasets.
+Check and validate the methods to load and save the datasets
 
 ### Retrieve Domain Knowledge and Anomalies
 
