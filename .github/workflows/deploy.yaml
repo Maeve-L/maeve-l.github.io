@@ -12,16 +12,17 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Build Link Index
-        uses: jackyzha0/hugo-obsidian@v2.3
+        uses: jackyzha0/hugo-obsidian@v2.12
         with:
           index: true
           input: content
-          output: data
+          output: assets/indices
+          root: .
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.82.0'
+          hugo-version: '0.96.0'
           extended: true
 
       - name: Build
@@ -33,4 +34,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: master  # deploying branch
-          cname: maeve-l.github.io
+          cname: quartz.jzhao.xyz
