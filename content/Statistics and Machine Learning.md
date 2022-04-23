@@ -1,32 +1,36 @@
 ## Statistical Inference
-[Statistical Inference](Statistical%20Inference.md)
+
+[[Statistical Inference]]
 
 ## Regression
 
-[Simple Linear Regression](Simple%20Linear%20Regression.md)
-[Multiple Linear Regression](Multiple%20Linear%20Regression.md)
-[ANOVA](ANOVA.md)
+[[Simple Linear Regression]]
+
+[[Multiple Linear Regression]]
+
+[[ANOVA]]
 
 
 
 ## Classification
 
-[Logistics Regression](Logistics%20Regression.md)
-[SVMs and Kernel Methods](SVMs%20and%20Kernel%20Methods.md)
+[[Logistics Regression]]
+
+[[SVMs and Kernel Methods]]
 
 ## Dimensionality Reduction
 
-[PCA Analysis](PCA%20Analysis.md)
+[[PCA Analysis]]
 
 
 ## Cluster
 
 ## Survival Analysis
-[Survival Analysis](Survival%20Analysis.md)
+[[Survival Analysis]]
 
 ## Time Series
 
-[Time Series Analysis](Financial%20Time%20Series%20Analysis.md)
+[[Financial Time Series Analysis]]
 
 ## Bagging and Boosting
 

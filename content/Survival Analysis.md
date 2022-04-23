@@ -30,7 +30,7 @@ $$
 $$
 \lambda_i(t)=\lambda_0(t)\text{exp}(x_i^T\beta)
 $$
-[MBS早偿率的生存分析建模](MBS%20Modelling.md#生存分析建模)
+[[MBS Modelling]]
 
 ### Testing
 Wald

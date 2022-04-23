@@ -29,7 +29,6 @@ TBA 市场可以为抵押贷款发起人提供风险对冲和融资作用。贷�
 
 美元滚动交易由两笔 TBA 交易组成。卖家 (roll seller, MBS持有者，即融入资金方）出售一张MBS，承诺在近月 (front month) 交付这张券给对方，同时承诺在远月 (future month) 再把同类同面值的券买回来。这两个 MBS 不需要完全相同，只要它们具有相同的 TBA 特征即可。 
 
-![](Pasted%20image%2020220319222213.png)
 
 美元滚动交易的“下跌” (dollar roll drop) 是近月和远月 TBA 合约之间的价差，一般来说是正的，原因有二。 
 
@@ -143,7 +142,7 @@ $$
 Ret_{i t}=\sum_{t} \alpha_{t} D_{t}+\sum_{i} \gamma_{i} D_{i}+\beta Specialness_{i t}+\varepsilon_{i t}
 $$
 
-其中 [OAS](OAS.md) 是基于利率 $r_{t}$ 上使得 MBS 预期现金流的现值等于该 MBS 的市场价格所需收益率价差。可以按以下方法倒解出 OAS：
+其中 [[OAS]] 是基于利率 $r_{t}$ 上使得 MBS 预期现金流的现值等于该 MBS 的市场价格所需收益率价差。可以按以下方法倒解出 OAS：
 
 设$r_{t}, t=1, \cdots, T$是利率曲线，给定$r_{j t}, t=1, \cdots, T$是状态 $j=1, \cdots, N$下的利率，每个状态下 MBS 的现金流可以$C_{j t}, t=1, \cdots, T$确定，OAS被定义为：
 $$

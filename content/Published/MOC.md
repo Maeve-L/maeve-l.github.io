@@ -1,1 +1,1 @@
-Please see [Map of Contents](Map%20of%20Contents.md).
+Please see [[MOC]].
