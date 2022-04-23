@@ -1,6 +1,9 @@
 name: Maeve Liu
 enableToc: true
+openToc: true
+enableLinkPreview: true
+enableLatex: true
 description:
   Evergreen Notes.
 page_title:
-  Quant Apprentice.
+  Quant Apprentice
