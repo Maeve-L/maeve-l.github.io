@@ -1,3 +1,7 @@
+---
+title: "Options"
+---
+
 ## Properties of Options
 
 ### Factors affecting option prices

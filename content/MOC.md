@@ -1,3 +1,7 @@
+---
+title: "MOC"
+---
+
 ## Stats
 
 [[Probability and Random Process]]
@@ -5,7 +9,6 @@
 
 [[Statistics and Machine Learning]]
 
-[[Financial Time Series Analysis]]
 
 ## Finance
 
@@ -13,7 +16,7 @@
 
 [[Futures]]
 
-[[Swap]]
+[[Swaps]]
 
 [[Rates]]
 

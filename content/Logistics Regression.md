@@ -1,3 +1,6 @@
+---
+title: "Logistics Regression"
+---
 ## Logistic Regression
 
 ### Logit Model

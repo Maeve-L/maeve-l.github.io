@@ -1,8 +1,5 @@
 ---
-Area: Finance
-Source: Book
-Status: Done
-Type: Notes
+title: "Futures"
 ---
 
 ## 期货市场的运作机制

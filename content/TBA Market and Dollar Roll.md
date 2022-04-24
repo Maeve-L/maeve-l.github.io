@@ -1,8 +1,5 @@
 ---
-Area: Finance
-Source: Paper
-Status: Done
-Type: Notes
+title: "TBA Market and Dollar Roll"
 ---
 
 

@@ -1,10 +1,6 @@
 ---
-Area: Statistics
-Source: Book
-Status: Todo
-Type: Notes
+title: "Multiple Linear Regression"
 ---
-
 
 # Multiple Linear Regression
 

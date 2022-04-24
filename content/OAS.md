@@ -1,8 +1,5 @@
 ---
-Area: Finance
-Source: Book
-Status: Done
-Type: Notes
+title: "OAS"
 ---
 
 ## MBS的内嵌期权

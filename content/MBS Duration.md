@@ -1,10 +1,6 @@
 ---
-Area: Finance
-Source: Book
-Status: Done
-Type: Notes
+title: "MBS Duration"
 ---
-
 
 ## 久期和凸性的定义
 

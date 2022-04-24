@@ -1,8 +1,5 @@
 ---
-Area: Finance
-Source: Book
-Status: Done
-Type: Notes
+title: "MBS Modelling"
 ---
 
 

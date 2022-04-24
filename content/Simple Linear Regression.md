@@ -1,9 +1,7 @@
 ---
-Area: Statistics
-Source: Book
-Status: Done
-Type: Notes
+title: "Simple Linear Regression"
 ---
+
 
 
 # Simple Linear Regression Model

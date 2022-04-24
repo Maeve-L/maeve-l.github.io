@@ -1,9 +1,7 @@
 ---
-Area: Finance
-Source: Book
-Status: Done
-Type: Notes
+title: "Rates"
 ---
+
 
 ## 利率的种类
 

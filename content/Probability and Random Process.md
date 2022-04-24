@@ -1,4 +1,7 @@
-[probability_cheatsheet.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/646bd1d9-a58f-469a-b20b-fc2e2ff9efc9/probability_cheatsheet.pdf)
+---
+title: "Probability and Random Process"
+---
+
 
 ## Counting
 

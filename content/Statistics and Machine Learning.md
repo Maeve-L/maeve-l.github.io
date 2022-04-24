@@ -1,3 +1,7 @@
+---
+title: "Statistics and Machine Learning"
+---
+
 ## Statistical Inference
 
 [[Statistical Inference]]

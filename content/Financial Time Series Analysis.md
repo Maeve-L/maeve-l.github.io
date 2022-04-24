@@ -1,8 +1,5 @@
 ---
-Area: Statistics
-Source: Book
-Status: Todo
-Type: Notes
+title: "Financial Time Series Analysis"
 ---
 
 ## 1 线性时间序列模型

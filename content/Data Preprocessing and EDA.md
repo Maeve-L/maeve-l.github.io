@@ -1,8 +1,5 @@
 ---
-Area: Coding
-Source: Website
-Status: Ongoing
-Type: Notes
+title: "Data Preprocessing and EDA"
 ---
 
 ## Rows and Columns

@@ -1,3 +1,7 @@
+---
+title: "SVMs and Kernel Methods"
+---
+
 Awkward issue with logistic regression is that it fails if the training data are linearly separable. What this means is that, in the feature space, one can separate the two classes by a linear boundary. In cases such as this, maximum likelihood fails and some parameters march off to infinity. 
 
 ## Optimal Separating Hyperplane

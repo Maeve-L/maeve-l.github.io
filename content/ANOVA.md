@@ -1,10 +1,6 @@
 ---
-Area: Statistics
-Source: Book
-Status: Todo
-Type: Notes
+title: "ANOVA"
 ---
-
 
 ## ANOVA
 

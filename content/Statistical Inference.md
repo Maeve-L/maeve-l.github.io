@@ -1,3 +1,7 @@
+---
+title: "Statistical Inference"
+---
+
 ## Estimation
 
 ### Prior and Posterior Distributions

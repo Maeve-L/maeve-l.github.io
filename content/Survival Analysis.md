@@ -1,3 +1,7 @@
+---
+title: "Survival Analysis"
+---
+
 ## Hazard Function
 $$
 \lambda(t)=\lim _{h \rightarrow 0^{+}} \frac{P(t \leq T<t+h \mid T \geq t)}{h}
